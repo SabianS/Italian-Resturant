@@ -1,1 +1,191 @@
-hey
+* {
+	box-sizing:border-box;
+}
+body {
+	margin:0;
+	padding: 0;
+}
+body.index {
+	background-color: black;
+}
+body.menu{
+	background-color: black;
+}
+body.about{
+	background-color: black;
+	background-size: cover;
+	width:100%;
+	text-align: center;
+	margin: 0 auto;
+}
+div.content-wrap{
+	background:url('../img/background-new.jpg') no-repeat center;
+	background-size: cover;
+	width: 80%;
+	margin: 0 auto;
+	text-align:center;
+	border top:1px solid;
+	border-right: 2px solid;
+	border-left: 2px solid;
+	border-bottom: 2px solid;
+	height:75vh;
+}
+body.index ul.main-nav {
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	background-color: #a63d40;
+	border: 2px solid;
+}
+body.index ul.main-nav li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
+	color: white;
+	font-family:sans-serif,helvetica;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+body.index ul.main-nav li a{
+	text-decoration: none;
+	color: white;
+}
+body.menu ul.main-nav {
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	background-color: #709775;
+	border: 2px solid;
+}
+body.menu ul.main-nav li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
+	color: white;
+	font-family:sans-serif,helvetica;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+body.menu ul.main-nav li a{
+	text-decoration: none;
+	color: white;
+}
+body.about ul.main-nav {
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	background-color: white;
+	border: 2px solid;
+}
+body.about ul.main-nav li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
+	color: white;
+	font-family:sans-serif,helvetica;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+body.about ul.main-nav li a{
+	text-decoration: none;
+	color: black;
+}
+img{
+	margin-top: 0px;
+	width: 525px;
+}
+body.index p.logo{
+	font-size:50px;
+	color: black;
+	font-family: apple chancery, cursive;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+body.index ul.main-nav li a:hover{
+	color: #709775;
+}
+body.about ul.main-nav li a:hover{
+	color: #709775;
+}
+body.menu ul.main-nav li a:hover{
+	color: black;
+}
+body.index p{
+	color: white;
+	font-family: apple chancery, cursive;
+	text-align: center;
+	font-size: 40px;
+}
+div.description{
+	background-color: #709775;
+	margin:0 auto;
+	width: 80%;
+	padding: 40px;
+	height: 80%;
+}
+div.description img{
+	padding-top: 10px;
+	width:50%;
+	height: 65%;
+}
+div.quail li{
+	text-align: center;
+	list-style-type: none;
+	padding-right: 2.7%;
+	margin-top: 50px;
+	color: white;
+}
+div.potato li{
+	text-align: center;
+	list-style-type: none;
+	padding-right: 2.7%;
+	margin-top: 50px;
+	color: white;
+}
+div.speghetti li{
+	text-align: center;
+	list-style-type: none;
+	padding-right: 2.7%;
+	margin-top: 50px;
+	color: white;
+}
+div.halibut li{
+	text-align: center;
+	list-style-type: none;
+	padding-right: 2.7%;
+	margin-top: 50px;
+	color: white;
+}
+div.lamb li{
+	text-align: center;
+	list-style-type: none;
+	padding-right: 2.7%;
+	margin-top: 50px;
+	color: white;
+}
+div.quail img{
+	width: 300px;
+	margin-left:41.5%;
+}
+div.potato img{
+	width: 300px;
+	margin-left: 41.5%;
+}
+div.speghetti img{
+	width: 300px;
+	margin-left:41.5%;
+}
+div.halibut img{
+	width: 300px;
+	margin-left:41.5%;
+}
+div.lamb img{
+	width: 300px;
+	margin-left:41.5%;
+}
